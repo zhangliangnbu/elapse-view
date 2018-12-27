@@ -36,3 +36,5 @@ dependencies {
 repositories {
     mavenCentral()
 }
+
+apply from: './bintrayReleaseUpload.gradle'
